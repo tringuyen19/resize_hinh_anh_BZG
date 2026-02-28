@@ -13,44 +13,31 @@ Mở folder vừa giải nén
 2️⃣ Cài Python
 🔍 Kiểm tra máy đã có Python chưa
 
-Nhấn:
+Nhấn: Command (⌘) + Space
 
-Command (⌘) + Space
+Gõ: Terminal
 
-Gõ:
-
-Terminal
-
-Mở Terminal rồi nhập:
-
-python3 --version
+Mở Terminal rồi nhập: python3 --version
 
 Nếu hiện như: Python 3.11.x    → Đã có Python, bỏ qua bước cài đặt.
 
 📥 Nếu chưa có Python
 
-Vào trang chính thức:
-
-👉 https://www.python.org/downloads/
+Vào trang chính thức:  https://www.python.org/downloads/
 
 Tải bản mới nhất cho macOS
 
 Mở file .pkg và cài đặt như bình thường
 
-Sau khi cài xong, mở Terminal lại và kiểm tra:
-
-python3 --version
+Sau khi cài xong, mở Terminal lại và kiểm tra: python3 --version
 
 
 3️⃣ Cài Visual Studio Code (để viết và chạy code dễ hơn)
 📥 Tải VS Code
 
-Vào:
-👉 https://code.visualstudio.com/
+Vào:  https://code.visualstudio.com/
 
-Tải bản cho macOS
-
-Kéo biểu tượng VS Code vào Applications
+Tải bản cho macOS, Kéo biểu tượng VS Code vào Applications
 
 🚀 Mở project bằng VS Code
 
@@ -67,18 +54,13 @@ Mở Terminal trong VS Code:
 
 Terminal → New Terminal
 
-Sau đó chạy:
+Sau đó chạy: cd code
 
-cd code
+Tạo môi trường ảo: python3 -m venv venv
 
-Tạo môi trường ảo:
-python3 -m venv venv
+Kích hoạt môi trường ảo: source .venv/bin/activate
 
-Kích hoạt môi trường ảo:
-source venv/bin/activate
-
-Nếu thành công sẽ thấy:
-(venv) MacBook:project-name user$
+Nếu thành công sẽ thấy: (venv) MacBook:project-name user$
 
 5️⃣ Cài thư viện cần thiết
 pip install -r requirements.txt
