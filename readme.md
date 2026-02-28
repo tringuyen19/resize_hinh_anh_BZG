@@ -21,28 +21,32 @@ Gõ:
 
 Terminal
 
-Mở Terminal rồi nhập:
+Mở Terminal và nhập:
 
 python3 --version
 
-Nếu hiện như: Python 3.11.x    → Đã có Python, bỏ qua bước cài đặt.
+Nếu hiện như:
+
+Python 3.11.x
+
+→ Máy đã có Python. Bỏ qua bước cài đặt.
 
 📥 Nếu chưa có Python
 
 Vào trang chính thức:
-
 👉 https://www.python.org/downloads/
 
 Tải bản mới nhất cho macOS
 
 Mở file .pkg và cài đặt như bình thường
 
-Sau khi cài xong, mở Terminal lại và kiểm tra:
+Sau khi cài xong, mở lại Terminal và kiểm tra:
 
 python3 --version
+3️⃣ Cài Visual Studio Code (khuyến nghị)
 
+VS Code giúp mở và chạy project dễ dàng hơn.
 
-3️⃣ Cài Visual Studio Code (để viết và chạy code dễ hơn)
 📥 Tải VS Code
 
 Vào:
@@ -50,7 +54,7 @@ Vào:
 
 Tải bản cho macOS
 
-Kéo biểu tượng VS Code vào Applications
+Kéo biểu tượng VS Code vào thư mục Applications
 
 🚀 Mở project bằng VS Code
 
@@ -60,33 +64,35 @@ Chọn File → Open Folder
 
 Chọn folder project đã giải nén
 
-
 4️⃣ Tạo môi trường ảo (rất quan trọng)
 
-Mở Terminal trong VS Code:
+Trong VS Code:
+
+Chọn:
 
 Terminal → New Terminal
 
 Sau đó chạy:
 
 cd code
-
-Tạo môi trường ảo:
+🔧 Tạo môi trường ảo
 python3 -m venv venv
-
-Kích hoạt môi trường ảo:
+▶ Kích hoạt môi trường ảo
 source venv/bin/activate
 
 Nếu thành công sẽ thấy:
-(venv) MacBook:project-name user$
 
+(venv) MacBook:project-name user$
 5️⃣ Cài thư viện cần thiết
+
+Chạy:
+
 pip install -r requirements.txt
 
+Chờ cài đặt hoàn tất.
+
 6️⃣ Chạy chương trình
-
---Nếu resize theo link ảnh
+🔗 Resize theo link ảnh
 python resize_images.py
-
---Nếu resize theo thư mục đã chứa ảnh
+📁 Resize theo thư mục đã chứa ảnh
 python resize_folder.py
