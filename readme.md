@@ -72,3 +72,40 @@ python resize_images.py
 
 --Nếu resize theo thư mục đã chứa ảnh
 python resize_folder.py
+
+
+
+
+🖼 Image Resizer Tool
+
+Chương trình hỗ trợ resize hình ảnh theo 2 cách: Resize ảnh từ link website (Excel chứa link ảnh)  //   Resize ảnh từ thư mục ảnh có sẵn trong máy
+
+🔹 Cách 1: Resize ảnh theo link website
+
+📂 Cách hoạt động
+
+Trong project có file Excel tên: link.xlsx
+
+File này chứa danh sách các link ảnh từ website
+
+Khi muốn resize ảnh từ web:
+
+Copy link ảnh
+
+Dán vào file link.xlsx -> lưu file
+
+Chạy lệnh:  python resize_images.py
+
+
+Cách 2: Resize ảnh theo thư mục có sẵn
+
+📂 Cách hoạt động
+
+Trong project có 1 folder tên: input
+
+Bạn chỉ cần: Copy tất cả ảnh cần resize vào folder input
+
+Chạy lệnh: python resize_folder.py
+
+📤 Kết quả
+Ảnh sau khi resize sẽ được lưu vào: output
