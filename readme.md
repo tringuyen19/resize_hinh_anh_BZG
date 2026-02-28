@@ -25,11 +25,7 @@ Mở Terminal rồi nhập:
 
 python3 --version
 
-Nếu hiện như:
-
-Python 3.11.x
-
-→ Đã có Python, bỏ qua bước cài đặt.
+Nếu hiện như: Python 3.11.x    → Đã có Python, bỏ qua bước cài đặt.
 
 📥 Nếu chưa có Python
 
@@ -73,13 +69,12 @@ Terminal → New Terminal
 
 Sau đó chạy:
 
-Di chuyển vào đúng thư mục (nếu chưa đúng)
 cd code
 
-Tạo môi trường ảo
+Tạo môi trường ảo:
 python3 -m venv venv
 
-Kích hoạt môi trường ảo
+Kích hoạt môi trường ảo:
 source venv/bin/activate
 
 Nếu thành công sẽ thấy:
